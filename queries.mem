@@ -1,6 +1,7 @@
 // Here are example queries and responses from the data
 
 ant == [
+	ant.letter:ord=1,
 	ant.believe:amsterdam=1,
 	ant.believe:cairo=1,
 	ant.believe:dubai=1,
@@ -92,4 +93,13 @@ ant.believe:amsterdam == [
 	eagle.create:dubai=1,
 	eagle.create:edinburgh=1,
 	eagle.discover:edinburgh=1
+];
+
+.letter <= 2 == [
+	ant.letter:ord=1,
+	bat.letter:ord=1
+];
+
+.letter:ord #= 3 == [
+	cat.letter:ord=1
 ];

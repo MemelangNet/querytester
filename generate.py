@@ -35,15 +35,20 @@ with open('data.csv', 'w', newline='') as csv_file, open('data.mem', 'w') as mem
     
     for a in range(COUNT):
         animal = As[a]
+        aq = a + 1
+        
+        # Write to CSV and mem files for letter info
+        csv_writer.writerow([animal, "letter", "ord", aq])
+        mem_file.write(f"{animal}.letter:ord={aq};\n")
+        
         for r in range(COUNT):
             verb = Rs[r]
             for b in range(COUNT):
                 city = Bs[b]
                 q = 0 if a == r or b == r else 1
                 
-                # Write to CSV file
-                if q == 1:
-                    csv_writer.writerow([animal, verb, city])
+                # Write to CSV file for combinations
+                csv_writer.writerow([animal, verb, city, q])
                 
-                # Write to mem file
+                # Write to mem file for combinations
                 mem_file.write(f"{animal}.{verb}:{city}={q};\n")
