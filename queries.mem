@@ -97,9 +97,9 @@ ant.believe:amsterdam == [
 
 .letter <= 2 == [
 	ant.letter:ord=1,
-	bat.letter:ord=1
+	bat.letter:ord=2
 ];
 
 .letter:ord #= 3 == [
-	cat.letter:ord=1
+	cat.letter:ord=3
 ];
