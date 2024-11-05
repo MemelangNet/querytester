@@ -39,7 +39,7 @@ ant.believe:amsterdam == [
 	ant.create:bangkok=1,
 	ant.create:dubai=1,
 	ant.create:edinburgh=1,
-	// no dog
+	// no bat
 	// no cat
 	deer.believe:amsterdam=1,
 	deer.believe:cairo=1,
