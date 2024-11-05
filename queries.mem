@@ -17,7 +17,7 @@ ant == [
 	ant.explore:bangkok=1,
 	ant.explore:cairo=1,
 	ant.explore:dubai=1
-],
+];
 
 ant.believe == [
 	ant.believe:amsterdam=1,
@@ -28,7 +28,7 @@ ant.believe == [
 
 ant.believe:amsterdam == [
 	ant.believe:amsterdam=1
-],
+];
 
 .believe & .create == [
 	ant.believe:amsterdam=1,
@@ -58,7 +58,7 @@ ant.believe:amsterdam == [
 	eagle.create:bangkok=1,
 	eagle.create:dubai=1,
 	eagle.create:edinburgh=1
-],
+];
 
 :dubai | :edinburgh == [
 	ant.believe:dubai=1,
@@ -94,4 +94,4 @@ ant.believe:amsterdam == [
 	eagle.create:dubai=1,
 	eagle.create:edinburgh=1,
 	eagle.discover:edinburgh=1
-],
+];
