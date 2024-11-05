@@ -24,7 +24,7 @@ ant.believe == [
 	ant.believe:cairo=1,
 	ant.believe:dubai=1,
 	ant.believe:edinburgh=1
-],
+];
 
 ant.believe:amsterdam == [
 	ant.believe:amsterdam=1
@@ -37,7 +37,6 @@ ant.believe:amsterdam == [
 	ant.believe:edinburgh=1,
 	ant.create:amsterdam=1,
 	ant.create:bangkok=1,
-	ant.create:cairo=0,
 	ant.create:dubai=1,
 	ant.create:edinburgh=1,
 	// no dog
@@ -77,7 +76,6 @@ ant.believe:amsterdam == [
 	cat.admire:edinburgh=1,
 	cat.believe:dubai=1,
 	cat.believe:edinburgh=1,
-	cat.discover:dubai=0,
 	cat.discover:edinburgh=1,
 	cat.explore:dubai=1,
 	deer.admire:dubai=1,
